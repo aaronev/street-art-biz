@@ -1,0 +1,66 @@
+
+hr {
+  width: 80%;              
+  background-color: black;
+}
+
+footer {
+  background-color: #3C3C3C;
+  height: 100px;
+  overflow: hidden;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+nav, #home {
+  background-color: #B0D2DB;
+  overflow: hidden;
+}
+
+#home {
+  padding: 50px;
+}
+
+#services {
+  background-color: #FEFEFE;
+  height: auto;
+  margin-top: 30px;
+}
+
+#porfolio {
+  background-color: #A4D1A9;
+  height: auto;
+  overflow: hidden;
+}
+
+#porfolio .navbar {
+  background-color: #A4D1A9;
+}
+
+#photoshop {
+  background-color: #F0F0F0;
+  height: auto;
+  overflow: hidden;
+}
+
+#meet-team {
+  background-color: #D7B6C3;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+
+#blog {
+  background-color: #BBD4DF;
+  height: auto;
+  overflow: hidden;
+}
+
+#contact {
+  background-color: #3C3C3C;
+  height: auto;
+  overflow: hidden;
+}
