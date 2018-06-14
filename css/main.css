@@ -14,8 +14,13 @@ textarea {
   height: 200px;
   resize: none;
 }
+
+nav a img{
+  width: 60px;
+}
+
 nav, #home {
-  background-color: #B0D2DB;
+  background-color: #FFFFFF;
   overflow: hidden;
 }
 
