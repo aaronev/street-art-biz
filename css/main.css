@@ -1,72 +1,18 @@
-
-
-hr {
-  width: 80%;              
-  background-color: black;
+img { 
+  width: 400px;
+  height: 400px;
 }
 
-footer {
-  background-color: #3C3C3C;
-  height: 100px;
-  overflow: hidden;
-}
-
-textarea {
-  height: 200px;
-  resize: none;
-}
-
-nav a img{
-  width: 60px;
-}
-
-nav, #home {
+nav {
   background-color: #FFFFFF;
-  overflow: hidden;
 }
 
-#home {
-  padding: 50px;
+nav img {
+  width: 80px;
+  height: 80px;
 }
 
-#services {
-  background-color: #FEFEFE;
-  height: auto;
-  margin-top: 30px;
-}
-
-#porfolio {
-  background-color: #A4D1A9;
-  height: auto;
-  overflow: hidden;
-}
-
-#porfolio .navbar {
-  background-color: #A4D1A9;
-}
-
-#photoshop {
-  background-color: #F0F0F0;
-  height: auto;
-  overflow: hidden;
-}
-
-#meet-team {
-  background-color: #D7B6C3;
-  height: auto;
-  overflow: hidden;
-  padding-bottom: 10px;
-}
-
-
-#blog {
-  background-color: #BBD4DF;
-  height: auto;
-  overflow: hidden;
-}
-
-#contact {
-  background-color: #3C3C3C;
-  height: auto;
-  overflow: hidden;
+#art {
+  width: 100%;
+  background-color: gray;
 }
