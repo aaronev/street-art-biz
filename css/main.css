@@ -23,9 +23,15 @@ nav img {
 }
 
 #art {
-  height: 500px;
+  position: absolute;
+  height: auto;
   border: solid;
   background-position: center;
   overflow: hidden;
   background-color: gray;
+
+}
+
+#contact {
+
 }
