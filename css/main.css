@@ -2,10 +2,6 @@ img {
   object-fit: cover;
 }
 
-.white {
-  color: white;
-}
-
 main {
   display: none;
   position: fixed;
@@ -22,6 +18,14 @@ nav img {
   height: 80px;
 }
 
+footer {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  border: solid;
+  width: 100%;
+
+}
 #art {
   position: absolute;
   height: auto;
