@@ -2,13 +2,6 @@ img {
   object-fit: cover;
 }
 
-main {
-  display: none;
-  position: fixed;
-  background-color: black;
-  color: white;
-  z-index: 10;
-}
 nav {
   background-color: #FFFFFF;
 }
@@ -22,6 +15,11 @@ body > .container {
   padding-top: 60px;
 }
 
+main{
+  height: 100%;
+  border: solid;
+  z-index: 10;
+}
 footer {
   position: fixed;
   z-index: 10;
@@ -30,6 +28,15 @@ footer {
   width: 100%;
 
 }
+
+#about{
+  display: none;
+  position: fixed;
+  background-color: black;
+  color: white;
+  /*z-index: 10;*/
+}
+
 #art {
   position: absolute;
   height: auto;
@@ -41,5 +48,5 @@ footer {
 }
 
 #contact {
-
+  position: absolute;
 }
