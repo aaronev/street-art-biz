@@ -18,6 +18,10 @@ nav img {
   height: 80px;
 }
 
+body > .container {
+  padding-top: 60px;
+}
+
 footer {
   position: fixed;
   z-index: 10;
