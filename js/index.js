@@ -4,9 +4,11 @@ var dom = {
   home: document.getElementById("home"),
   navArt: document.getElementById("nav-art"),
   navAtt: document.getElementById('nav-attire'),
+  navShip: document.getElementById('nav-shipment'),
   about: document.getElementById("about"),
   art: document.getElementById("art"),
-  attire: document.getElementById("attire")
+  attire: document.getElementById("attire"),
+  ship: document.getElementById("ship")
 }
 
 dom.home.addEventListener("click", () => {
@@ -30,5 +32,13 @@ dom.navAtt.addEventListener("click", () => {
     dom.attire.style.display = "none"
   } else {
     dom.attire.style.display = "block"
+  }  
+})
+
+dom.navShip.addEventListener("click", () => {
+  if (dom.ship.style.display === "block") {
+    dom.ship.style.display = "none"
+  } else {
+    dom.ship.style.display = "block"
   }  
 })
