@@ -3,8 +3,10 @@ console.log('JS WORKS!')
 var dom = {
   home: document.getElementById("home"),
   navArt: document.getElementById("nav-art"),
+  navAtt: document.getElementById('nav-attire'),
   about: document.getElementById("about"),
-  art: document.getElementById("art")
+  art: document.getElementById("art"),
+  attire: document.getElementById("attire")
 }
 
 dom.home.addEventListener("click", () => {
@@ -23,3 +25,10 @@ dom.navArt.addEventListener("click", () => {
   }
 })
 
+dom.navAtt.addEventListener("click", () => {
+  if (dom.attire.style.display === "block") {
+    dom.attire.style.display = "none"
+  } else {
+    dom.attire.style.display = "block"
+  }  
+})
