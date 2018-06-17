@@ -43,7 +43,6 @@ footer {
 
 #art {
   display: none;
-  position: absolute;
   height: auto;
   background-position: center;
   overflow: hidden;
@@ -51,7 +50,16 @@ footer {
 
 }
 
+#attire {
+  display: none;
+}
+
+#attire img {
+  display: block;
+  width: 200px;
+  height: 100% ;
+}
+
 #contact {
   display: none;
-  position: absolute;
 }
