@@ -33,16 +33,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#art">Art <span class="sr-only">(current)</span></a>
+            <a id="nav-art" class="nav-link" href="#art">Art <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#attire">Attire</a>
+            <a id="nav-attire" class="nav-link" href="#attire">Attire</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#ship">Shipment</a>
+            <a id="nav-shipment" class="nav-link" href="#ship">Shipment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a id="nav-contact"class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -101,6 +101,15 @@
       <!-- Section with carousel -->
       <!-- Find way for carousel to show each section instead -->
       <section id="art" class="container-fluid">
+        <form method="post" action="/art">
+          <fieldset>
+            <label>Upload Art</label>
+            <input type="input" name="upload-art">
+            <button>Submit</button>
+            <hr>or<hr>  
+            <label>Choose your art:</label>
+          </fieldset>
+        </form>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner text-center">
             <div class="carousel-item active">
