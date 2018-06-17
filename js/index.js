@@ -1,10 +1,16 @@
 console.log('JS WORKS!')
 
-document.getElementById("home").addEventListener("click", () => {
-  var about = document.getElementById("about")
-  if (about.style.display === "none") {
-    about.style.display = "block"
+var dom = {
+  "home": document.getElementById("home"),
+  about: document.getElementById("about"),
+
+}
+
+dom.home.addEventListener("click", () => {
+  if (dom.about.style.display === "none") {
+    console.log('hello')
+    dom.about.style.display = "block"
   } else {
-    about.style.display = "none"
+    dom.about.style.display = "none"
   }
 })

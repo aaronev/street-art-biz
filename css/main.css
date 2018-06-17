@@ -11,36 +11,33 @@ nav img {
   height: 80px;
 }
 
-body > .container {
-  padding-top: 60px;
+body {
+  overflow: scroll;
 }
 
 main{
-  height: 100%;
-  border: solid;
-  z-index: 10;
+  height: 1000px;
+  overflow: scroll;
 }
+
 footer {
-  position: fixed;
   z-index: 10;
   background-color: white;
-  border: solid;
   width: 100%;
 
 }
 
 #about{
+  margin: 0;
   display: none;
-  position: fixed;
   background-color: black;
   color: white;
-  /*z-index: 10;*/
 }
 
 #art {
+  display: none;
   position: absolute;
   height: auto;
-  border: solid;
   background-position: center;
   overflow: hidden;
   background-color: gray;
@@ -48,5 +45,6 @@ footer {
 }
 
 #contact {
+  display: none;
   position: absolute;
 }
