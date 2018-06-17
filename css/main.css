@@ -60,6 +60,9 @@ footer {
   height: 100% ;
 }
 
+#ship {
+  display: none;
+}
 #contact {
   display: none;
 }
